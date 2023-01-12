@@ -1,0 +1,19 @@
+@media (max-width: 840px) {
+    .nav-list a {
+        font-size: 12px;
+    }
+
+    .icons-container {
+        height: 25px;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .icons-container img {
+        height: 15px;
+    }
+
+    #search {
+        width: 200px;
+    }
+}
