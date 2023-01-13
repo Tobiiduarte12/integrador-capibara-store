@@ -372,13 +372,7 @@ main{
 .lanzamiento-products {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
-=======
-    width: 100%;
-    justify-content: space-around;
-
->>>>>>> main
     flex-wrap: wrap;
     padding: 20px 70px;
     gap: 40px;
