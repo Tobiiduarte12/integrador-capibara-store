@@ -44,21 +44,19 @@
 
 .nav-section {
     background-color: var(--grey);
-    padding-bottom: 10px;
 }
 
 .nav-section ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 10px;
-    /* margin-top: 90px; */
+    padding: 10px 0px;
 }
 
 #search {
     background-color: #3e3e3e;
     width: 300px;
-    max-width: 300px;
+    max-width: 400px;
     height: 30px;
     border-radius: 30px;
     border: solid 1px #ffff;
@@ -71,6 +69,13 @@
     border: 1px solid white;
     border-radius: 30px;
     padding: 10px 15px;
+    transition: 0.5s;
+}
+
+
+
+.menu-toogle {
+    display: none;
 }
 
 .nav-icon {
@@ -84,7 +89,7 @@
 
 .nav-icon:hover {
     padding: 5px;
-    height: 28px;
+    height: 25px;
     background-color: yellowgreen;
 }
 
@@ -117,6 +122,7 @@
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     transition: 0.5s;
+    font-size: 14px;
 }
 
 .nav-section a:hover {
@@ -164,12 +170,22 @@ html {
 }
 
 .nav-list a:hover {
-    /* background-color: #ff0000c2; */
     background-color: #3e3e3e;
     color: #ffff;
     padding: 10px;
     border-radius: 30px;
     font-weight: 700;
+}
+
+.menu-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#toogle, .menu-label {
+    display: none;
 }
 
 /* **************************************************** */
@@ -249,7 +265,7 @@ main{
 }
 
 .hero-slider img{
-    height: 350px;
+    height: 70%;
     width: 50%;
     border-radius: 1rem;
 }
@@ -355,7 +371,7 @@ main{
 .lanzamiento-products {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px 70px;
     gap: 40px;
@@ -399,4 +415,43 @@ main{
 
 .product-info span {
     color: gray;
+}
+
+/* ***************************FOOTER********************************* */
+
+footer {
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+footer ul a {
+    color: var(--grey);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0,5s;
+}
+
+footer ul a:hover {
+    color: var(--bg-white);
+    font-size: 15px;
+}
+
+footer p {
+    color: #3e3e3e;
+}
+
+footer p span {
+    color: var(--bg-white);
 }
