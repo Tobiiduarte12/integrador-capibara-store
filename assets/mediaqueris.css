@@ -13,8 +13,12 @@
         height: 15px;
     }
 
-    #search {
-        width: 200px;
+    #icon-img {
+        height: 5px;
+    }
+
+    .nav-container {
+        padding: 5px;
     }
 
     .nav-section a {

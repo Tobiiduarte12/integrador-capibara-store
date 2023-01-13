@@ -55,12 +55,29 @@
 
 #search {
     background-color: #3e3e3e;
-    width: 300px;
-    max-width: 400px;
     height: 30px;
     border-radius: 30px;
     border: solid 1px #ffff;
     margin-left: 20px;
+}
+
+.search-btn {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+    width: 80%;
+    height: 30px;
+}
+
+.search-icon {
+    height: 35px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+.search-icon:hover {
+    color: yellowgreen;
+    height: 32px;
 }
 
 .icons-container {
@@ -71,8 +88,6 @@
     padding: 10px 15px;
     transition: 0.5s;
 }
-
-
 
 .menu-toogle {
     display: none;
@@ -93,27 +108,9 @@
     background-color: yellowgreen;
 }
 
-.search-btn {
-    display: flex;
-    gap: 10px;
-    align-items: stretch;
-}
-
-
-.search-icon {
-    height: 35px;
-    cursor: pointer;
-    transition: 0,5s;
-}
-
-.search-icon:hover {
-    color: yellowgreen;
-    height: 32px;
-}
-
-
 .search-btn-place {
     padding: 10px;
+    width: 50%;
 }
 
 .nav-section a {
