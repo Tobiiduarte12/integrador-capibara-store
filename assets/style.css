@@ -345,6 +345,7 @@ main{
     text-decoration: none;
     font-size: 14px;
     transition: 1s;
+    text-align: center;
 }
 
 .lanzamiento-info a:hover {
@@ -355,7 +356,9 @@ main{
 .lanzamiento-products {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+
     flex-wrap: wrap;
     padding: 20px 70px;
     gap: 40px;
