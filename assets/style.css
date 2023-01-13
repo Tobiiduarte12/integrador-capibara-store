@@ -59,6 +59,7 @@
     border-radius: 30px;
     border: solid 1px #ffff;
     margin-left: 20px;
+    color: var(--bg-white);
 }
 
 .search-btn {
