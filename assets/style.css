@@ -321,11 +321,13 @@ main{
 #lanzamiento {
     background-image: url(./img/carpinchitos.jpg);
     background-size: cover;
+    background-position: center;
     max-width: 1200px;
     width: 90%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .lanzamiento-info {
