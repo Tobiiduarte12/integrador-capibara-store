@@ -207,7 +207,6 @@ main{
     max-width: 1200px;
     width: 90%;
     margin-top: 120px;
-    margin-bottom: 60px;
     border-radius: 5px;
 }
 
@@ -314,6 +313,25 @@ main{
     font-size: 20px;
 }
 
+.envios {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: var(--grey);
+    padding: 5px;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 70px;
+}
+
+.envios p {
+    color: var(--bg-white);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
 /* ************************************************************* */
 
 /* *************section-2******************************************* */
@@ -418,6 +436,39 @@ main{
     color: gray;
 }
 
+.product-info-buy {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.product-info-price {
+    text-align: start;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info-buy button {
+    padding: 5px;
+    background-color: var(--black-transparent);
+    border: 1px solid var(--bg-white);
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.product-info-buy button:hover {
+    background-color: yellowgreen;
+}
+
+.product-info-buy a {
+    color: #ffff;
+    text-decoration: none;
+}
+
 /* ***************************FOOTER********************************* */
 
 footer {
@@ -453,6 +504,13 @@ footer p {
     color: #3e3e3e;
 }
 
-footer p span {
+footer p span a {
     color: var(--bg-white);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer p span a:hover {
+    color: red;
+    font-size: 18px;
 }
