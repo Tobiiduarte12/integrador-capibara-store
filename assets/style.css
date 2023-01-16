@@ -48,9 +48,8 @@
 
 .nav-section ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    padding: 10px 0px;
+    padding: 5px;
 }
 
 #search {
@@ -86,27 +85,34 @@
     gap: 10px;
     border: 1px solid white;
     border-radius: 30px;
-    padding: 10px 15px;
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-container:hover {
+    height: 40px;
+    padding: 10px;
 }
 
 .menu-toogle {
     display: none;
 }
 
-.nav-icon {
+.icons-container img {
     cursor: pointer;
-    /* border: 1px solid white; */
-    height: 20px;
     border-radius: 1rem;
     transition: 0.5s;
-    align-items: center;
+    display: flex;
+    height: 30px;
+    padding: 5px;
 }
 
 .nav-icon:hover {
-    padding: 5px;
-    height: 25px;
+    /* padding: 5px; */
+    height: 35px;
     background-color: yellowgreen;
+    
 }
 
 .search-btn-place {
@@ -182,8 +188,33 @@ html {
     gap: 5px;
 }
 
-#toogle, .menu-label {
+#toogle, .menu-label, #cart-toogle {
     display: none;
+}
+
+.cart-products {
+    position: absolute;
+    right: 0;
+    top: 69px;
+    padding: 30px;
+    background-color: var(--black-transparent);
+    height: calc(100vh - 69px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cart-products h2 {
+    color: var(--bg-white);
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-card {
+    display: flex;
+
 }
 
 /* **************************************************** */
@@ -323,7 +354,7 @@ main{
     width: 100%;
     position: sticky;
     position: -webkit-sticky;
-    top: 70px;
+    top: 90px;
 }
 
 .envios p {

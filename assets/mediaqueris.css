@@ -45,6 +45,10 @@
     .icons-container:hover {
         height: 35px;
     }
+
+    .envios {
+        top: 70px;
+    }
 }
 
 @media (max-width: 670px) {
