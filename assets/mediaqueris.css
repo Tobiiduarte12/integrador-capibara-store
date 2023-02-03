@@ -3,14 +3,8 @@
         font-size: 14px;
     }
 
-    .icons-container {
-        height: 25px;
-        align-items: center;
-        padding: 5px;
-    }
-
     .icons-container img {
-        height: 15px;
+        height: 30px;
     }
 
     #icon-img {

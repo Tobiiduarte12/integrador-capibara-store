@@ -82,7 +82,7 @@
 }
 
 .icons-container:hover {
-    height: 40px;
+    height: 45px;
 }
 
 .menu-toogle {
@@ -188,7 +188,7 @@ html {
     gap: 5px;
 }
 
-#toogle, .menu-label, #cart-toogle {
+#toogle, .menu-label, #cart-toggle {
     display: none;
 }
 
@@ -202,6 +202,8 @@ html {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow-y: scroll;
+    z-index: 2;
 }
 
 .cart-products h2 {
@@ -216,11 +218,11 @@ html {
     display: flex;
 }
 
-.cart-toggle {
+.cart {
     display: none;
 }
 
-#cart-toogle:checked + .cart-toggle {
+#cart-toggle:checked + .cart {
     display: flex;
     position: absolute;
     top: 45px;
