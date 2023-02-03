@@ -3,10 +3,6 @@
         font-size: 14px;
     }
 
-    .icons-container img {
-        height: 30px;
-    }
-
     #icon-img {
         height: 5px;
     }
@@ -32,16 +28,16 @@
         margin-top: 90px;
     }
 
-    .hero-container {
-        gap: 10px;
-    }
-
     .icons-container:hover {
-        height: 35px;
+        height: 45px;
     }
 
     .envios {
         top: 70px;
+    }
+
+    .cart-products {
+        top: 53px;
     }
 }
 

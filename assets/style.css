@@ -204,6 +204,11 @@ html {
     gap: 30px;
     overflow-y: scroll;
     z-index: 2;
+    width: 300px;
+}
+
+.cart-products::-webkit-scrollbar {
+    display: none;
 }
 
 .cart-products h2 {
@@ -211,11 +216,30 @@ html {
     text-align: center;
     width: 100%;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .cart-card {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3e3e3e;
+    border: 1px solid greenyellow;
+    border-radius: 1rem;
+    padding: 5px 10px;
+    align-items: center;
+    text-align: start;
+    width: 95%;
+}
+
+.cart-card img {
+    height: 60px;
+}
+
+.cart-card h3 {
+    font-size: 12px;
+    color: #ffff;
+    font-weight: 700;
 }
 
 .cart {
