@@ -84,7 +84,7 @@
     }
 }
 
-@media (max-width :576px) {
+@media (max-width: 576px) {
     .cart {
         left: 0;
         width: 100%;
@@ -109,5 +109,39 @@
     }
     .img-maradona {
         height: 300px;
+    }
+}
+
+@media (max-width: 420px) {
+    #section-contact h2 {
+        font-size: 28px;
+    }
+    #search {
+        height: 25px;
+    }
+    .search-icon {
+        height: 30px;
+    }
+    .menu-label {
+        height: 30px;
+    }
+    .icons-container img {
+        height: 15px;
+        padding: 0;
+    }
+    .icons-container img:hover {
+        height: 20px;
+    }
+    #icon-img {
+        height: 45px;
+    }
+    section[id] {
+        scroll-margin-top: 80px;
+    }
+    .cart {
+        top: 84px;
+    }
+    footer p {
+        font-size: 14px;
     }
 }
