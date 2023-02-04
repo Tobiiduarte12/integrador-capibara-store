@@ -49,6 +49,7 @@
     border: solid 1px #ffff;
     margin-left: 20px;
     color: var(--bg-white);
+    width: 100%;
 }
 
 .search-btn {
@@ -102,7 +103,6 @@
 
 .search-btn-place {
     padding: 10px;
-    width: 50%;
 }
 
 
