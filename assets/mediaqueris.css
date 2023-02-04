@@ -1,4 +1,7 @@
 @media (max-width: 840px) {
+    section[id] {
+        scroll-margin-top: 100px;
+    }
     .nav-list a {
         font-size: 14px;
     }
@@ -55,6 +58,10 @@
         display: none;
     }
 
+    section[id] {
+        scroll-margin-top: 95px;
+    }
+
     .menu-label {
         display: flex;
         order: 2;
@@ -93,5 +100,14 @@
 
     .lanzamiento-info a:hover {
         font-size: 15px;
+    }
+    .contact-container {
+        flex-wrap: wrap;
+    }
+    #section-contact h2 {
+        margin-bottom: 10px;
+    }
+    .img-maradona {
+        height: 300px;
     }
 }

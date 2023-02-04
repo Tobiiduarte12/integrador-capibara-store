@@ -288,6 +288,7 @@ html {
     border-radius: 5px;
     border: 1px solid greenyellow;
     color: #99FFFF;
+    cursor: pointer;
 }
 
 .item-quantity {
@@ -605,6 +606,74 @@ main{
 .product-info-buy a {
     color: #ffff;
     text-decoration: none;
+}
+
+/* *************************SECTION-CONTACT************************* */
+
+#section-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+}
+#section-contact h2 {
+    color: #ffff;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#section-contact h2 span {
+    font-weight: 700;
+    color: transparent;
+    background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.img-maradona {
+    height: 400px;
+    border-radius: 15px;
+}
+.contact-form-container {
+    display: flex;
+}
+.contact-form-container .form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-item {
+    margin-top: 40px;
+}
+.form-item label {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 3px;
+    color: transparent;
+    background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.form-item input {
+    padding: 1px 5px;
+    border-radius: 10px;
+    width:200px ;
+}
+.check-info {
+    color: #ffff;
+    text-align: center;
+    font-size: 12px;
+    margin: 30px;
+    text-transform: capitalize;
 }
 
 /* ***************************FOOTER********************************* */
