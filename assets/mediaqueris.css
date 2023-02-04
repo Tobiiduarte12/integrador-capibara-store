@@ -66,9 +66,14 @@
         display: flex;
     }
 
+    footer ul {
+        flex-direction: column;
+    }
+
     footer p {
-        width: 80%;
+        width: 100%;
         text-align: center;
+        padding: 10px;
     }
 }
 
@@ -80,5 +85,13 @@
 
     .cart-card {
         flex-wrap: wrap;
+    }
+
+    .lanzamiento-info h2 {
+        font-size: 16px;
+    }
+
+    .lanzamiento-info a:hover {
+        font-size: 15px;
     }
 }
