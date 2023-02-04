@@ -112,6 +112,9 @@
     .img-maradona {
         height: 300px;
     }
+    footer p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -146,7 +149,5 @@
     .nav-list a {
         font-size: 12px;
     }
-    footer p {
-        font-size: 14px;
-    }
+    
 }
