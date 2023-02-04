@@ -3,10 +3,6 @@
         font-size: 14px;
     }
 
-    #icon-img {
-        height: 5px;
-    }
-
     .nav-container {
         padding: 5px;
     }
@@ -28,20 +24,20 @@
         margin-top: 90px;
     }
 
-    .icons-container:hover {
-        height: 45px;
-    }
-
     .envios {
         top: 70px;
     }
 
-    .cart-products {
-        top: 53px;
+    .cart {
+        top: 98px;
     }
 }
 
 @media (max-width: 670px) {
+    .cart {
+        top: 94px;
+    }
+    
     .nav-list {
         position: absolute;
         top: 84px;
@@ -73,5 +69,16 @@
     footer p {
         width: 80%;
         text-align: center;
+    }
+}
+
+@media (max-width :576px) {
+    .cart {
+        left: 0;
+        width: 100%;
+    }
+
+    .cart-card {
+        flex-wrap: wrap;
     }
 }
