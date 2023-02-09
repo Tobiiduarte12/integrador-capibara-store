@@ -159,6 +159,14 @@
     .cart {
         top: 84px;
     }
+    .cart-card {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .cart-card img {
+        height: 70px;
+        width: 80px;
+    }
     .nav-list a {
         font-size: 12px;
     }
