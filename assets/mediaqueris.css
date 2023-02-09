@@ -34,6 +34,9 @@
     .cart {
         top: 98px;
     }
+    .about-container img {
+        height: 200px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -84,6 +87,13 @@
         text-align: center;
         padding: 10px;
     }
+
+    .about-container h1{
+        font-size: 56px;
+    }
+    .about-container p {
+        width: 90%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -111,6 +121,9 @@
     }
     .img-maradona {
         height: 300px;
+    }
+    .about-container img {
+        height: 160px;
     }
     footer p {
         font-size: 14px;
@@ -149,5 +162,16 @@
     .nav-list a {
         font-size: 12px;
     }
-    
+    .about-container h1{
+        font-size: 36px;
+    }
+    .about-container p {
+        width: 100%;
+    }
+    .about-container h2 {
+        font-size: 18px;
+    }
+    .about-container img {
+        height: 120px;
+    }
 }

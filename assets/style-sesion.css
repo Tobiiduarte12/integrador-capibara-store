@@ -30,40 +30,8 @@ body {
     align-items: center;
     text-align: center;
     background-color: #141516;
-    padding: 50px 100px;
     width: 100%;
-}
-/* *******INFO******** */
-.info-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-}
-.info-container h1 {
-    font-weight: 700;
-    font-size: 56px;
-    color: transparent;
-    background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 54%);
-    background-clip: text;
-    -webkit-background-clip: text;
-}
-.info-container h2 {
-    color: #ffff;
-    font-size: 24px;
-    font-weight: 400;
-}
-.info-container p {
-    color: #ffff;
-    background-color: #3e3e3e;
-    border-radius: 5px;
-    padding: 10px;
-    width: 50%;
-}
-.img-maradona {
-    height: 350px;
-    width: 250px;
-    border-radius: 1rem;
+    min-height: 100vh;
 }
 
 /* **********FORM************** */
@@ -76,9 +44,21 @@ body {
 }
 .form-container h2 {
     color: #ffff;
-    font-size: 20px;
-    width: 200px;
+    font-size: 32px;
+    width: 400px;
     text-align: center;
+}
+
+.form-container a {
+    color: transparent;
+    background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.5s;
+}
+.form-container a:hover {
+    font-size: 25px;
+    border-bottom: solid var(--grey) ;
 }
 .form-container .form-item {
     display: flex;
@@ -175,48 +155,16 @@ footer p span a:hover {
 }
 /* **************MEDIAQUERIS************* */
 
-@media (max-width: 840px) {
-    #hero {
-        flex-wrap: wrap;
-    }
-    .info-container h1 {
-        font-size: 46px;
-    }
-    .info-container p {
-        width: 100%;
-    }
-}
-
 @media (max-width: 440px) {
-    .info-container h1 {
-        font-size: 36px;
-    }
-    .info-container h2 {
-        font-size: 18px;
-    }
-    .info-container p {
-        font-size: 14px;
-    }
-    .img-maradona {
-        width: 200px;
-        height: 300px;
+    .form-container h2 {
+        width: 90%;
     }
     footer ul {
         flex-direction: column;
     }
 }
-
 @media (max-width: 370px) {
-    .info-container h1 {
-        font-size: 30px;
-    }
-    .info-container h2 {
-        font-size: 16px;
-    }
-    .info-container p {
-        font-size: 12px;
-    }
     footer p {
         font-size: 12px;
     }
-}
+} 
