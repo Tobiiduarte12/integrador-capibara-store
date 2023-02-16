@@ -5,41 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style-sesion.css">
+    <link rel="stylesheet" href="./assets/sesion.css">
 </head>
 <body>
     <section id="hero">
-        <div class="form-container">
-            <h2>¡Bienvenido de nuevo! <span>🤠</span></h2>
-            <a href="#">REGISTRARSE</a>
+        <div class="container">
             <form action="">
-                <div class="form-item">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                <h1>Bienvenido de nuevo!🤠</h1>
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Usuario</span>
+                    <i></i>
                 </div>
-                <div class="form-item">
-                    <label for="password">Contraseña</label>
-                    <input type="password" name="contraseña" id="password" placeholder="*************">
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Contraseña</span>
+                    <i></i>
                 </div>
-                
-                <div class="check-info">
-                    <input type="checkbox" name="novedades" id="novedades">
-                    <label for="novedades">acepto recibir noticias e información sobre nuevos productos </label>
+                <div class="links">
+                    <a href="#">Cambiar Contraseña</a>
+                    <a href="#">Registrarse</a>
                 </div>
-                
-                <button class="btn-submit" type="submit">Iniciar sesión</button>
+                <input type="submit" value="Iniciar Sesión">
             </form>
         </div>
     </section>
-
-    <footer>
-        <ul>
-            <li><a href="#">Politica de privacidad</a></li>
-            <li><a href="#">Trabajá con nosotros</a></li>
-            <li><a href="#">Soporte</a></li>
-        </ul>
-        <p>Copyright © 2023 - Capibara-Store - Creado y mantenido por <span><a href="https://www.instagram.com/tobiiduarte12/" target="_blank">Tobias Duarte⚜️</a></span></p>
-    </footer>
-     
 </body>
 </html>
