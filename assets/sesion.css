@@ -33,19 +33,7 @@
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
 }
-/* .container::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 380px;
-    height: 420px;
-    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
-    z-index: 0;
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-    animation-delay: -3s;
-} */
+
 @keyframes animate {
     0% {
         transform: rotate(0deg);
@@ -155,4 +143,13 @@
 }
 .container form input[type="submit"]:active {
     opacity: 0.8;
+}
+/* ***********MEDIAQUERIS*********** */
+@media (max-width: 420px) {
+    .container {
+        width: 280px;
+    }
+    .container form .inputBox {
+        width: 180px;
+    }
 }

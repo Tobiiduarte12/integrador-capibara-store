@@ -383,7 +383,11 @@ main{
 }
 
 .hero-container h1 span {
-    font-weight: 400;
+    font-weight: 600;
+    color: transparent;
+    background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .hero-slider {
@@ -539,14 +543,14 @@ main{
     border-radius: 15px;
 }
 .lanzamiento-products img:hover {
-    animation: animate-product 1s ease-in-out;
+    animation: animate-product 3s ease infinite;
 }
 @keyframes animate-product {
     0% {
         transform: scale(1);
     }
     100% {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
@@ -626,6 +630,8 @@ main{
     width: 90%;
     max-width: 1200px;
     background: #3e3e3e22;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 #section-contact h2 {
     margin-top: 10px;
@@ -692,10 +698,10 @@ main{
 /* ************************ ABOUT-US ********************************** */
 #about-us {
     background: #3e3e3e22;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 90%;
     color: #ffff;
-    padding: 20px 0px;
+    padding: 10px 0px;
     margin: 20px 0px;
 }
 .about-container {
