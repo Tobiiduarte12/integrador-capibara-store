@@ -31,6 +31,7 @@
     flex-direction: column;
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 
 .nav-container {
@@ -542,17 +543,6 @@ main{
     width: 220px;
     border-radius: 15px;
 }
-.lanzamiento-products img:hover {
-    animation: animate-product 3s ease infinite;
-}
-@keyframes animate-product {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
 
     /* ******************PRODUCTOS******************** */
 
@@ -729,13 +719,15 @@ main{
 .about-container p {
     color: #ffff;
     background-color: #141516;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
     width: 50%;
+    font-size: 1rem;
 }
 .about-container img {
     height: 300px;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 
 

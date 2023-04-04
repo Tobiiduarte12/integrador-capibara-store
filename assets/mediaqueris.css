@@ -122,6 +122,13 @@
     .img-maradona {
         height: 300px;
     }
+    .about-container h1{
+        font-size: 36px;
+    }
+    .about-container p {
+        width: 90%;
+        font-size: .8rem;
+    }
     .about-container img {
         height: 160px;
     }
@@ -172,12 +179,6 @@
     }
     .nav-list a {
         font-size: 12px;
-    }
-    .about-container h1{
-        font-size: 36px;
-    }
-    .about-container p {
-        width: 100%;
     }
     .about-container h2 {
         font-size: 18px;
