@@ -41,7 +41,7 @@
 
 @media (max-width: 670px) {
     .cart {
-        top: 94px;
+        top: 98px;
     }
     
     .nav-list {
@@ -131,6 +131,9 @@
 }
 
 @media (max-width: 420px) {
+    #icon-img {
+        width: 50px;
+    }
     #section-contact h2 {
         font-size: 28px;
     }
@@ -157,7 +160,7 @@
         scroll-margin-top: 80px;
     }
     .cart {
-        top: 84px;
+        top: 90px;
     }
     .cart-card {
         flex-direction: column;

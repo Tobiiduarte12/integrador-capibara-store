@@ -49,7 +49,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    padding: 50px 40px;
+    padding: 10px 20px;
+    align-items: center;
 }
 .container form h1 {
     color: transparent;
@@ -64,6 +65,7 @@
     position: relative;
     width: 300px;
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 .container form .inputBox input {
     position: relative;
@@ -74,7 +76,7 @@
     border: none;
     box-shadow: none;
     color: #23242a;
-    font-size: 1em;
+    font-size: .8rem;
     letter-spacing: 0.05em;
     transition: 0.5s;
     z-index: 10;
@@ -114,7 +116,7 @@
 .container form .links {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    width: 100%;
 }
 .container form .links a {
     margin: 10px 0;
@@ -140,11 +142,11 @@
 }
 .container form input[type="submit"]:hover {
     color: red;
+    opacity: 0.6;
 }
-.container form input[type="submit"]:active {
-    opacity: 0.8;
-}
+
 /* ***********MEDIAQUERIS*********** */
+
 @media (max-width: 420px) {
     .container {
         width: 280px;
