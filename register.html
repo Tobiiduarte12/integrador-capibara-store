@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/sesion.css">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="./assets/register.css">
 </head>
 <body>
     <section id="hero">
         <div class="container">
             <form action="">
-                <h1>Bienvenido de nuevo!🤠</h1>
+                <h1>Registrarse🤠</h1>
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Nombre y apellido</span>
+                    <i></i>
+                </div>
                 <div class="inputBox">
                     <input type="email" required="required">
                     <span>Email</span>
@@ -22,11 +27,12 @@
                     <span>Contraseña</span>
                     <i></i>
                 </div>
-                <div class="links">
-                    <a href="#">Cambiar Contraseña</a>
-                    <a href="./register.html">Registrarse</a>
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Repetir contraseña</span>
+                    <i></i>
                 </div>
-                <input type="submit" value="Iniciar Sesión">
+                <input type="submit" value="Enviar">
             </form>
         </div>
     </section>
